@@ -1,6 +1,6 @@
 body {
 	background: #002B36;
-	padding: 20px 50px;
+	padding: 40px 50px;
 	margin: 0px;
 }
 
@@ -16,7 +16,7 @@ textarea {
 	font-family: monospace;
 	outline: none;
 	resize: none;
-	font-size: 13px;
+	font-size: 11px;
 }
 
 /* the line numbers */
@@ -25,10 +25,10 @@ textarea {
   color: #7d7d7d;
 	z-index: -1000;
 	position: absolute;
-	top: 20px;
+	top: 40px;
 	left: 0px;
 	width: 30px; /* 30 to get 20 away from box */
-	font-size: 13px;
+	font-size: 11px;
 	font-family: monospace;
 	text-align: right;
 }
@@ -41,7 +41,7 @@ textarea {
 	width: 100%;
 	border: 0px;
 	outline: none;
-	font-size: 13px;
+	font-size: 11px;
 	padding-right: 360px;
 }
 
