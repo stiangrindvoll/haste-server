@@ -2,7 +2,7 @@
 
 	<head>
 
-		<title>hastebin</title>
+		<title>haste</title>
 
 		<link rel="stylesheet" type="text/css" href="solarized_dark.css"/>
 		<link rel="stylesheet" type="text/css" href="application.css"/>
@@ -31,7 +31,7 @@
 			}, 1000);
 			// Construct app and load initial path
 			$(function() {
-				app = new haste('hastebin', { twitter: true });
+				app = new haste('haste', { twitter: true });
 				handlePop({ target: window });
 			});
 		</script>
@@ -43,15 +43,11 @@
 
 		<div id="key">
 		  <div id="pointer" style="display:none;"></div>
-			<div id="box1">
-				<a href="/about.md" class="logo"></a>
-			</div>
 			<div id="box2">
 				<div class="save function"></div>
 				<div class="new function"></div>
 				<div class="duplicate function"></div>
 				<div class="raw function"></div>
-				<div class="twitter function"></div>
 			</div>
 			<div id="box3" style="display:none;">
 				<div class="label"></div>
